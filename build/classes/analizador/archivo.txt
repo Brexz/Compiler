@@ -1,0 +1,20 @@
+VARIABLES 
+N : ENT ;
+F : ENT ;
+T1 : ENT ;
+T2 : ENT ;
+I : ENT ;
+A : FLOT ;
+PROGRAMACION
+T1 = 1 ;
+F = 0 ;
+PRINTLN ( 'INGRESA LA CANTIDAD DE NUMEROS' ) ;
+SCAN ' N ' ;
+FOR ( I = 1 ; I <= N ; I ++ ) { 
+T2 = F ;
+F = T1 + F ;
+T1 = T2 ;
+PRINTLN ( T1 ) ;
+}
+PRINTLN ( 1.25 ) ;
+PRINTLN ( 23 ) ;
